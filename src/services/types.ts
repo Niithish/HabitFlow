@@ -168,6 +168,7 @@ export interface ButtonProps {
   disabled?: boolean;
   loading?: boolean;
   icon?: string;
+  style?: any;
 }
 
 export interface InputProps {
