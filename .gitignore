@@ -137,3 +137,36 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# React Native specific
+# Metro bundler
+.metro-health-check*
+
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+*.keystore
+!debug.keystore
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcuserdata
+ios/DerivedData/
+
+# React Native temporary files
+.react-native-tmp-*
+
+# MacOS
+.DS_Store
+
+# Flipper
+Flipper-Folly
+# Ignore all logkitty cache files
+.logkitty
+
+# Buck generated files
+buck-out/
